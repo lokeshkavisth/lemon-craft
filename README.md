@@ -1,8 +1,29 @@
-# React + Vite
+# LemonCraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to setup
 
-Currently, two official plugins are available:
+clone the repo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+git clone https://github.com/lokeshkavisth/lemon-craft.git
+```
+
+cd into the cloned project
+
+```
+cd lemon-craft
+```
+
+install all the packages
+
+```
+npm install
+```
+
+run the server
+
+```
+npm run dev
+```
+
+Go to your browser and open `http://localhost:5173` you should see your project is running there.
