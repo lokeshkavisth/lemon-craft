@@ -5,7 +5,7 @@ const Hero = React.forwardRef((_, ref) => {
   return (
     <div
       ref={ref}
-      className="flex justify-between min-h-[calc(100vh-8rem)]"
+      className="flex justify-between min-h-[calc(100vh-8rem)] gap-2 md:flex-row flex-col"
       id="page1"
     >
       {/* Hero Left */}

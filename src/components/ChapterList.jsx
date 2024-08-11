@@ -38,7 +38,7 @@ function ChapterList() {
   }, []);
 
   return (
-    <aside className="fixed top-72 right-48">
+    <aside className="fixed top-72 right-48 hidden lg:block" id="lists">
       <ul className="space-y-4 relative">
         {sections.map((section) => {
           const isActive = section.id === activeSection;

@@ -42,6 +42,10 @@
   animation: fadeUp 0.5s linear;
 }
 
+#lists {
+  animation: fadeLeft 0.5s linear;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -59,5 +63,16 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

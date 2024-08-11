@@ -34,7 +34,7 @@ function App() {
   }, [scrollProgress]);
 
   return (
-    <section className="container mx-auto max-w-screen-2xl font-inter relative">
+    <section className="container mx-auto max-w-screen-2xl font-inter relative px-4">
       <Navbar />
       <main>
         <Hero ref={page1Ref} />
